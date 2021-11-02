@@ -7,6 +7,8 @@ namespace ConsoleFileExplorer
     {
         static void Main(string[] args)
         {
+            ConsoleExplorer explorer = new();
+            explorer.Run();
         }
     }
 }
